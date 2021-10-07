@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Jespers UX-portfolio</title>
+
+    <!-- Bootstraps CSS-länkning -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS-länkning -->
+    <link href="./css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Titel -->
+    <div class="container text-center my-5 headerTitel">
+        <h1>Jesper Håkansson</h1>
+        <p class="lead">UX Designer</p>
+    </div>
+        <!-- Navigation -->
+        <div class="container huvudNavigation">
+            <nav>
+                <ul class="nav nav-pills justify-content-start">
+                    <li class="nav-item">
+                        <a href="/index.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/portfolio.html" class="nav-link active">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/resume.html" class="nav-link">Resume</a>
+                    </li>
+                        <li class="nav-item">
+                        <button class="nav-link" onclick="darkMode()">Dark Mode</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+
+<!-- Karusellen med bilder -->
+
+
+    <div class="container mt-3">
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/desenio1.png" class="d-block w-100" alt="Desenio">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/facebook.png" class="d-block w-100" alt="Facebook Marketplace">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/afm.png" class="d-block w-100" alt="Arbetsförmedlingen">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/climateview.png" class="d-block w-100" alt="Climate View">
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+    <!-- Här börjar overview med projekt -->
+
+    <div class="container mt-2">
+        <h3 class="mb-3">Projects</h3>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="card mb-3">
+                    <img src="/img/desenio-thumb.png" alt="Desenio" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Desenio</h5>
+                        <p class="card-text">UX Proejct on improving Desenio's Gallery Wall Inspiration Rooms</p>
+                        <a href="./projekt/desenio.html" class="btn btn-primary">See project</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card mb-3">
+                    <img src="/img/facebook-thumb.png" alt="Facebook" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Facebook Marketplace</h5>
+                        <p class="card-text">UX Project on how to make the shopping experience safer.</p>
+                        <div class="btn btn-primary">See project</div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card mb-3">
+                    <img src="/img/arbetsformedlingen-thumb.png" alt="ClimateView" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Arbetsförmedlingen</h5>
+                        <p class="card-text">UX Project on how to make KROM and STOM more user friendly.</p>
+                        <div class="btn btn-primary">See project</div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="col-lg-3">
+                <div class="card mb-3">
+                    <img src="/img/climateview-thumb.png" alt="Arbetsförmedlingen" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">ClimateView</h5>
+                        <p class="card-text">UX Project on how to display climate statistics to your averege Joe.</p>
+                        <div class="btn btn-primary">See project</div>
+                    </div>
+                </div>
+                
+            </div>
+
+
+        
+
+    </div>
+   
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="js/base.js"></script>
+</body>
+
+</html>

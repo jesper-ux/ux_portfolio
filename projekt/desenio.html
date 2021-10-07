@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Jespers UX-portfolio</title>
+
+    <!-- Bootstraps CSS-länkning -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Custom CSS-länkning -->
+    <link href="/css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Titel -->
+    <div class="container text-center my-5 headerTitel">
+        <h1>Jesper Håkansson</h1>
+        <p class="lead">UX Designer</p>
+    </div>
+
+    <!-- Navigation -->
+    <div class="container huvudNavigation">
+        <nav>
+            <ul class="nav nav-pills justify-content-start">
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/portfolio.html" class="nav-link active">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/resume.html" class="nav-link">Resume</a>
+                </li>
+                    <li class="nav-item">
+                    <button class="nav-link" onclick="darkMode()">Dark Mode</button>
+                </li>
+            </ul>
+        </nav>
+     
+       
+
+    <div class="container mt-5 artikel">
+        <div class="row">
+            <div class="col">
+                <h3 class="mb-3">Desenio: Internship</h3>
+                <div><i>April-May 2021</strong></i>
+                <img src="/img/desenio1.png" alt="Desenio Gallery Wall Inspiration Rooms"
+                    class="card-img-top mt-3">
+     
+
+                <div class="container">
+                    <ul class="nav justify-content-center mt-3 border-top border-bottom">
+
+                        <li class="nav-item">
+                           <a class="nav-link" href="#Emphasize">Emphasize</a>
+                         </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#Define">Define</a>
+                         </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#Ideate">Ideate</a>
+                         </li>
+                        <li class="nav-item">
+                           <a class="nav-link" href="#PrototypeTest">Prototype & Test</a>
+                         </li>
+                       
+                       </ul>
+
+                    <!-- Projektartikel -->
+
+                    <div class="row align-items-start">
+                    
+                        <div class="col">
+                            <strong>
+                                <h5 class="mt-3 mb-3">Goal & Purpose</h5>
+                            </strong>
+                            <p>Improve the overall user experience of finding, selecting, customizing and purchasing
+                                Desenio’s curated <a href="https://desenio.co.uk/en/gallery-walls">gallery walls.</a>
+                            </p>
+                            <strong>
+                                <h5 id="Emphasize" class="mb-3">Emphasize</h5>
+                            </strong>
+                            <p>I started with creating a flow chart over the Gallery Wall Inspiration rooms in order to
+                                get an idea of how the current flow and tasks are set up on the website in order for a
+                                user to fulfill a complete purchase. In the flow chart, I defined that the Gallery Wall
+                                Inspiration Rooms can be divided into 5 different tasks:
+
+                            <ol>
+                                <li>Finding the Gallery Wall rooms</li>
+                                <li>Selecting a Gallery Wall</li>
+                                <li>Customizing the Gallery Wall</li>
+                                <li>Add it to the shopping bag</li>
+                                <li>Completing the purchase in checkout.</li>
+                            </ol>
+
+                            I then interviewed various stakeholders and a representative from their Customer Support
+                            team to gather important insights. In order to
+                            better understand their users problems, needs and wishes I conducted one user interview and
+                            a user test. I also got to take part of 5 pre-recorded user tests that had been conducted
+                            before I started my internship which were analyzed together with my own user tests and
+                            interviews.
+                            </p>
+                            <strong>
+                                <h5 id="Define" class="mt-3 mb-3">Define</h5>
+                            </strong>
+                            <p>
+                                I noted down quotes and grouped them thematically in order to pin point important
+                                insights from the interviews and user tests which was put together as an Empathy Map
+                                Canvas.
+
+                                When I was more aware of the problems, needs and wishes from their users, I also set up
+                                a cognitive walkthrough where I segmented all the gain and the pain points that I
+                                personally could identify for each task, with the users needs in mind.
+                            </p>
+                            <p class="mt-3">
+                                I then created a User Story Map where I segmented all the pain points and gain points I
+                                had identified from my research into the different tasks.
+
+                                As I was going to present my research for various stakeholders at the company, I also
+                                created a User Story Journey in order to better communicate the gain and the pain points
+                                that were identified from my research.
+
+
+                            </p>
+                            <img src="/img/user_journey1.jpg" class="img-fluid mt-3 mb-3" alt="User Journey">
+                            <img src="/img/user_journey2.jpg" class="img-fluid mt-3 mb-3" alt="User Journey">
+                            <i>User Journeys</i>
+
+                            <p class="mt-3">
+                                When the User Journey had been completed, I invited all the stakeholders to a meeting
+                                where I presented the findings I had gathered in my research, and finally a summary of
+                                the major pain points which should be the focus of a new design iteration of the Gallery
+                                Wall Inspiration Rooms.
+                            </p>
+                            <p class="mt-3">
+                                Since their system currently doesn’t bundle items within a gallery wall in the checkout,
+                                it is not possible to track them or benchmark the conversion rates for them, so I
+                                determined that the bundle feature for sure was the most important part of the MVP so
+                                they could start benchmarking the sales numbers. Currently there is no way of tracking
+                                the sales of the gallery walls.
+                            </p>
+                            <img src="/img/major_painpoints.png" class="img-fluid mt-3 mb-3" alt="Major painpoints">
+                            <i>Slide from research presentation showing the major pain points identified</i>
+                            <h5 id="Ideate" class="mt-3 mb-3">Ideate</h5>
+                            <p>
+                                After the meeting with the stakeholders, I started benchmarking other sites and services
+                                in order to find inspiration for designs that could solve the major pain points. I
+                                collected all the benchmarks I could find in a Miro board, and did a Crazy 8 in order to
+                                ideate various design suggestions that could be integrated together with their current
+                                design.
+                            </p>
+
+                            <img src="/img/benchmarking.png" class="img-fluid mt-3 mb-3" alt="Benchmarking">
+                            <i>Benchmarking best practises in Miro</i>
+
+                            <img src="/img/crazy8_1.png" class="img-fluid mt-3 mb-3" alt="Crazy 8 example">
+
+                            <img src="/img/crazy8_2.png" class="img-fluid mt-3 mb-3" alt="Crazy 8 example">
+                            <i>First iteration of idea from Crazy 8</i>
+                            <p class="mt-3">
+                                I had a meeting with one of the stakeholders in order to determine a MVP for the first
+                                re-design of the gallery wall. We decided that the following features would be included
+                                in a first re-design:
+                            </p>
+                            <strong>Finding the gallery walls</strong>
+                            <ul class="mt-3">
+                                <li>Include gallery walls in the search functionality to make it easier for users to
+                                    find the page.</li>
+                            </ul>
+                            <strong>Selecting a gallery wall</strong>
+                            <ul class="mt-3">
+                                <li> Include an "Add gallery wall to wishlist"-functionality, to help users save walls
+                                    they like.</li>
+                                <li>Enable same filters as single posters have (color, themes, art style, size, format),
+                                    to make it easier for users to find what they want.</li>
+                                <li> Enable same sorting options as single posters have (popularity, lowest price,
+                                    highest price, new releases</li>
+                                <li> Display name and price on overview page. </li>
+                                <li>Include a "Shop instagram"-functionality (curated by users) as their sister company
+                                    Poster Store has in order to enhance user engagement to the site. </li>
+                            </ul>
+                            <strong>Customizing a gallery wall</strong>
+                            <ul class="mt-3">
+                                <li>Lock the possibility of adding rooms that are not fully stocked to the shopping bag,
+                                    to make sure users do not order an incomplete gallery wall. </li>
+                                <li>Include a better item overview to make it easier for users to see the full content
+                                    of a
+                                    gallery wall</li>
+                                <li>Design an easier overview of how a size change would affect style of gallery wall.
+                                </li>
+                                <li>Make it easier to see which items are out of stock.</li>
+                                <li>Include a clearer Call To Action on items that are out of stock. </li>
+                                <li>Fix major flaws in customization process (e.g. block combinations that do not match
+                                </li>
+                                <li>Refreshing the site should save previous customization and not reset it </li>
+                            </ul>
+                            <strong>Shopping bag and checkout </strong>
+                            <ul class="mt-3">
+                                <li>Bundle items within a gallery wall in wishlist, shopping bag, checkout and order
+                                    confirmation so that customers can see which gallery wall they've bought. Currently
+                                    all
+                                    products are added as individual items, which means it is not possible to track
+                                    sales or
+                                    inform clients on which gallery wall they have bought. This will open up for
+                                    tracking
+                                    sales numbers of Gallery Walls, for future benchmarking.
+                                </li>
+                            </ul>
+                            <p class="mt-3">
+
+                                We decided to exclude an idea of a "hanging guide", that would help the users on how to
+                                mount the gallery wall at home. This will most probably be a part of a later iteration.
+                            </p>
+                            <h5 id="PrototypeTest" class="mt-3 mb-3">Prototype & Test</h5>
+                            <p>
+                                From the first hand drawn sprites I created out of ideating through Crazy 8, I decided
+                                to build an interactive lo-fi prototype through Balsamiq. I then let my superior and her
+                                colleague test the prototype and give me feedback on it.
+                            </p>
+                            <img src="/img/lofi_iteration.jpg" class="img-fluid mt-3 mb-3" alt="Iteration of first lofi prototype">
+                            <i>Comments for a first iteration of the lo-fi prototype</i>
+                            <p class="mt-3">
+
+                                When I had fixed the issues identified through the user tests, I presented my iteration to my superior, and mapped out the tasks and steps in Miro.
+
+                            </p>
+                            <img src="/img/lofi_wireframes.jpg" class="img-fluid mt-3 mb-3" alt="Final iteration of lofi prototype">
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+            <!-- BOOTSTRAP -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+            <script src="/js/base.js"></script>
+    </div>
+</body>
+
+</html>

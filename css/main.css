@@ -1,0 +1,100 @@
+/* CUSTOM CSS (ändring av färger) */
+
+
+.headerTitel h1 {
+
+    color:#174130;
+}
+
+
+.nav-pills .nav-link.active {
+
+    background-color:#174130;
+
+}
+
+.nav-link {
+
+    color:#174130;
+}
+
+
+.nav-link:hover {
+
+    color:#33946d;
+}
+
+.btn-primary {
+
+    background-color:#174130;
+    border-color: #174130;
+}
+
+.btn-primary:hover {
+
+    background-color:#33946d;
+    border-color: #33946d;
+}
+
+/* CUSTOM CSS FÖR DARK MODE */
+
+.dark-mode {
+
+    background-color:rgb(29, 29, 29);
+    color:white;
+    
+    }
+    
+.dark-mode .headerTitel h1 {
+    
+    color:white;
+
+    }
+    
+.dark-mode .nav-pills .nav-link.active { 
+    
+    background-color:#a3c0a8;
+    color:black;
+        }
+    
+    
+.dark-mode .profilBild {
+    
+    background-color: #a3c0a8;
+    }
+    
+    
+    
+.dark-mode .nav-link {
+    
+     color: white;
+        }
+    
+.dark-mode .card-body {
+    
+    background-color:rgb(29, 29, 29);
+    color:white;
+        }
+    
+.dark-mode .btn-primary {
+    
+     background-color:#a3c0a8;
+     color:black;
+    
+        }
+    
+.dark-mode .list-group-item {
+    
+     background-color:rgb(29, 29, 29);
+      color:white;
+    
+        }
+
+/* Bakgrundsfärg till transparent PNG-bild + rundade hörn på bilden */
+
+.profilBild {
+
+    background-color: #174130;
+    border-radius: 1em;
+}
+
